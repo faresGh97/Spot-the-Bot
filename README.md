@@ -17,7 +17,7 @@ additional resources can be found here: [Resources on google drive](https://driv
 
 
 
-## Atikamekw:
+## Atikamekw Language:
 
 1- since this language is a tribal language in north America region (in Montreal, Canada specifically), there was no literature to be found for this language, thus we extracted Wikipedia articles for this languages, thus for each article in [Atikamekw wikipedia,](https://atj.wikipedia.org/wiki/Kotakahi:Toutes_les_pages) a text file representing the content of this article has been extracted [(code)](https://github.com/faresGh97/Spot-the-Bot/blob/main/Atikamekw/Atikamekw_Text_Extraction.ipynb), which resulted in 1583 files that contains Atikamekw text.
 
