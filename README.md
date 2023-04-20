@@ -25,4 +25,6 @@ additional resources can be found here: https://drive.google.com/drive/folders/1
         a- Atikamekw Morphology and Lexicon, 1978, Beland, Jean Pierre [eng]
         b- Manuel D'Initation a la Langue Atikamekw, 2020, Cercle Kisis [frn]
         c- https://verbes.atikamekw.atlas-ling.ca/ [frn]
-after lemmatization a preprocessed text file for each of the articles mentioned above was generated, in order to be used for Corpus making thus the embedding.
+after lemmatization a preprocessed text file for each of the articles mentioned above was generated, and a corpus file from the processed files was generated.
+
+3- we preform Tfid matrixes and then SVDs matrixes in order to get the final embeddings of words in Atikamekw (https://github.com/faresGh97/Spot-the-Bot/blob/main/Atikamekw/Atikamekw_embeddings.ipynb) based on the clean corpus file extracted from the step above. Multiple matrixes have been extracted in this step.
