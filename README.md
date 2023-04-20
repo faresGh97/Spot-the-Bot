@@ -22,9 +22,9 @@ additional resources can be found here: [Resources on google drive](https://driv
 1- since this language is a tribal language in north America region (in Montreal, Canada specifically), there was no literature to be found for this language, thus we extracted Wikipedia articles for this languages, thus for each article in [Atikamekw wikipedia,](https://atj.wikipedia.org/wiki/Kotakahi:Toutes_les_pages) a text file representing the content of this article has been extracted [(code)](https://github.com/faresGh97/Spot-the-Bot/blob/main/Atikamekw/Atikamekw_Text_Extraction.ipynb), which resulted in 1583 files that contains Atikamekw text.
 
 2- cleaning and lemmatization of the text has been done in this step [(code)](https://github.com/faresGh97/Spot-the-Bot/blob/main/Atikamekw/Atikamekw%20Limma.ipynb). First, we preform text cleaning the same way we did for Thai language (without the stop-words removal step), then we preform lemmatization, for the same reasons mentioned above we couldn’t find a lemmatization tool for this language, hence a self-made lemmatization class has been made based on the lexicon literature and websites that explained the grammatical rules for this language, we mentioned:
-        a- Atikamekw Morphology and Lexicon, 1978, Beland, Jean Pierre [eng]
-        b- Manuel D'Initation a la Langue Atikamekw, 2020, Cercle Kisis [frn]
-        c- [verbs conjunction](https://verbes.atikamekw.atlas-ling.ca/) [frn]
+ - Atikamekw Morphology and Lexicon, 1978, Beland, Jean Pierre [eng]
+ - Manuel D'Initation a la Langue Atikamekw, 2020, Cercle Kisis [frn]
+ - [verbs conjunction](https://verbes.atikamekw.atlas-ling.ca/) [frn]
 after lemmatization a preprocessed text file for each of the articles mentioned above was generated, and a corpus file from the processed files was generated.
 
 3- we preform Tfid matrixes and then SVDs matrixes in order to get the final embeddings of words in Atikamekw [(code)](https://github.com/faresGh97/Spot-the-Bot/blob/main/Atikamekw/Atikamekw_embeddings.ipynb) based on the clean corpus file extracted from the step above. Multiple matrixes have been extracted in this step.
